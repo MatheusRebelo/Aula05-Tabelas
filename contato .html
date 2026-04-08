@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TechConnect - Contato</title>
+</head>
+<body>
+
+    <header>
+        <h1>Fale Conosco</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="servicos.html">Serviços</a> | 
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Solicite um Orçamento</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+                </p>
+
+                <p>
+                    <label for="tel">Telefone:</label><br>
+                    <input type="tel" id="tel" name="tel" placeholder="(00) 00000-0000">
+                </p>
+
+                <p>
+                    <label for="servico">Tipo de Serviço:</label><br>
+                    <select id="servico" name="servico">
+                        <option value="web">Criação de Site</option>
+                        <option value="app">App Mobile</option>
+                        <option value="sistema">Sistema Interno</option>
+                        <option value="seo">SEO</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="msg">Mensagem:</label><br>
+                    <textarea id="msg" name="msg" rows="4" cols="30"></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Aceito os Termos e Condições</label>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar Mensagem</button>
+                    <button type="reset">Limpar Formuário</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechConnect</p>
+    </footer>
+
+</body>
+</html>
