@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TechConnect - Portal Integrado</title>
+</head>
+<body>
+
+    <header id="topo">
+        <center>
+            <h1>TechConnect Solutions</h1>
+            <nav>
+                <a href="#home">Home</a> | 
+                <a href="#servicos">Serviços</a> | 
+                <a href="#contato">Contato</a>
+            </nav>
+        </center>
+        <hr>
+    </header>
+
+    <main>
+        <section id="home">
+            <center>
+                <h2>Bem-vindo à TechConnect</h2>
+                <p>A TechConnect é uma empresa líder em transformação digital, focada em entregar soluções robustas e modernas para empresas que buscam escalar sua presença no mercado tecnológico.</p>
+                <p>Nossa equipe é composta por especialistas em desenvolvimento, design e infraestrutura, garantindo que cada projeto seja único e eficiente.</p>
+            </center>
+        </section>
+
+        <br><hr><br>
+
+        <section id="servicos">
+            <center>
+                <h2>Nossos Serviços e Soluções</h2>
+                <table border="1" cellpadding="10" width="90%">
+                    <thead>
+                        <tr bgcolor="#dddddd">
+                            <th>Imagem</th>
+                            <th>Serviço</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Tempo Estimado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center"><img src="img/web.jpg" alt="Ícone Web" width="80"></td>
+                            <td><b>Criação de Sites</b></td>
+                            <td>Desenvolvimento de sites responsivos e modernos.</td>
+                            <td>R$ 2.500,00</td>
+                            <td>15 dias</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><img src="img/app.jpg" alt="Ícone App" width="80"></td>
+                            <td><b>Apps Mobile</b></td>
+                            <td>Aplicativos nativos para iOS e Android.</td>
+                            <td>R$ 8.000,00</td>
+                            <td rowspan="2" align="center">30 a 60 dias<br><i>(Projetos Longos)</i></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><img src="img/sistema.jpg" alt="Ícone Sistema" width="80"></td>
+                            <td><b>Sistemas Internos</b></td>
+                            <td>Sistemas de gestão (ERP) e automação de processos.</td>
+                            <td>R$ 12.000,00</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><img src="img/seo.jpg" alt="Ícone SEO" width="80"></td>
+                            <td><b>Consultoria SEO</b></td>
+                            <td>Otimização de sites para os motores de busca.</td>
+                            <td>R$ 1.200,00</td>
+                            <td>7 dias</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr bgcolor="#f9f9f9">
+                            <td colspan="4" align="right"><b>Combo Start (Web + SEO):</b></td>
+                            <td><b>R$ 3.200,00</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="center">
+                                <small>* Os prazos podem variar conforme a complexidade solicitada pelo cliente.</small>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </center>
+        </section>
+
+        <br><hr><br>
+
+        <section id="contato">
+            <center>
+                <h2>Solicite um Orçamento</h2>
+                <p>Preencha os campos abaixo e nossa equipe entrará em contato em até 24 horas.</p>
+                
+                <form action="#" method="post">
+                    <table cellpadding="5">
+                        <tr>
+                            <td align="right"><label for="nome">Nome Completo:</label></td>
+                            <td><input type="text" id="nome" name="nome" required size="30" placeholder="Ex: João Silva"></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><label for="email">E-mail:</label></td>
+                            <td><input type="email" id="email" name="email" required size="30" placeholder="email@exemplo.com"></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><label for="tel">Telefone:</label></td>
+                            <td><input type="tel" id="tel" name="tel" placeholder="(00) 00000-0000"></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><label for="servico">Serviço de Interesse:</label></td>
+                            <td>
+                                <select id="servico" name="servico">
+                                    <option value="web">Criação de Site</option>
+                                    <option value="app">App Mobile</option>
+                                    <option value="sistema">Sistema Interno</option>
+                                    <option value="seo">Consultoria SEO</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top"><label for="msg">Mensagem:</label></td>
+                            <td><textarea id="msg" name="msg" rows="5" cols="33" placeholder="Descreva seu projeto..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="checkbox" id="termos" name="termos" required>
+                                <label for="termos">Aceito os termos e condições</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <br>
+                                <button type="submit">Enviar Pedido</button>
+                                <button type="reset">Limpar Dados</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </center>
+        </section>
+    </main>
+
+    <br>
+    
+    <footer>
+        <hr>
+        <center>
+            <p>&copy; 2026 <b>TechConnect Solutions</b> - Todos os direitos reservados.</p>
+            <p><a href="#topo">Voltar ao topo</a></p>
+        </center>
+    </footer>
+
+</body>
+</html>
